@@ -18,11 +18,13 @@ Built with FastAPI · SQLite · Groq LLaMA · Tailwind CSS
 
 <div align="center">
 
-### 💬 Chat Interface
-![Chat Interface](screenshots/chat.png)
-
 ### 🏠 Welcome Screen
-![Welcome Screen](screenshots/welcome.png)
+![Welcome Screen](food1.png)
+
+### 💬 Chat Interface
+![Chat Interface](food3.png)
+
+
 
 </div>
 
@@ -231,31 +233,6 @@ The `chatbot.db` SQLite file is **automatically created** on first run!
 - [ ] Deploy to cloud (Render, Railway)
 - [ ] Image gallery for menu items
 - [ ] Loyalty points and rewards system
-
----
-
-## 🚀 Deployment
-
-### Backend → Render (Free)
-
-1. Push repo to GitHub
-2. Go to [render.com](https://render.com) → New Web Service
-3. Connect your GitHub repo, set root to `backend/`
-4. Build command: `pip install -r requirements.txt`
-5. Start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
-6. Add env variable: `GROQ_API_KEY=your_key`
-
-### Frontend → Netlify (Free)
-
-1. Go to [netlify.com](https://netlify.com)
-2. Drag and drop the `frontend/` folder
-3. Update `API_BASE` in `index.html` to your Render backend URL
-
----
-
-## 📄 License
-
-MIT License — free to use, modify, and distribute.
 
 ---
 
